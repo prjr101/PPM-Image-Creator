@@ -1,4 +1,4 @@
-PPM Image Creator
+#PPM Image Creator
 
 #takes a number, a lowest possible number, and a highest possible number, and sets the number to the min or max if not in the range, and returns the number otherwise
 def clampValueToRange(value, low, high):
@@ -105,7 +105,7 @@ def addRectangleToList(x1, x2, y1, y2, pixel, pixels):
         for y in range(y1, y2+1):
             pixels.append(positionPixel(x, y, pixel))
 
-#creates whatever I want
+#creates whatever you want
 def yourPictureFunction():
     pic = generateEmptyPicture(200, 200)
     writePPM(pic, "C:/Users/prjr1/OneDrive/Documents/UB Assignments/milestone3.ppm")
